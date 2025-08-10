@@ -1,0 +1,281 @@
+/* Reset default margin/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+/* Header background */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/* Navigation Menu */
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #ff9800;
+}
+
+/* Sections styling */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Profile container */
+.profile {
+    text-align: center;                  /* Center content */
+    padding: 20px;                /* White background */
+    border-radius: 12px;                   /* Rounded edges */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow */
+    max-width: 800px;                      /* Limit width */
+    margin: auto;                          /* Center horizontally */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.profile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+/* Profile image */
+.profile img {
+    width: 150px;               /* Fixed size */
+    height: 150px;
+    object-fit: cover;          /* Keep image ratio */
+    border-radius: 50%;         /* Circle shape */
+    border: 3px solid #ff9800;  /* Accent border */
+    margin-bottom: 15px;
+}
+
+/* Name */
+.profile h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+}
+
+/* Title */
+.profile h4 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #777;
+    margin: 5px 0 0 0;
+}
+
+/* Vision & Mission Section Styling */
+.vision, .mission {                  /* White card */
+    padding: 20px 25px;
+    border-radius: 12px;                   /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow */
+    max-width: 800px;                      /* Limit width */
+    margin: auto;                          /* Center horizontally */
+    text-align: center;                    /* Center content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.vision:hover, .mission:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Headings */
+.vision h3, .mission h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+.vision p, .mission p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Add spacing between cards */
+.vision {
+    margin-bottom: 30px;
+}
+
+/* Skills section */
+#skills {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+#skills h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* Skills container */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* Skill card */
+.skill {
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 120px;
+    transition: transform 0.3s ease;
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+}
+
+/* Skill images */
+.skill img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+/* Skill text */
+.skill p {
+    font-size: 16px;
+    font-weight: bold;
+}
+.cert-card {
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  overflow: hidden;
+  margin: 20px auto;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.certificate-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+.certificate-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.certificate-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+}
+
+.description {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #555;
+}
+
+.project-card {
+    max-width: 800px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-content {
+    padding: 15px;
+}
+
+.project-content h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.project-content h4 {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #007bff;
+}
+
+.project-content p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
+
+
+
+footer {
+    background-color: #333;       /* Dark background */
+    color: white;                 /* White text */
+    text-align: center;           /* Center text and icons */
+    padding: 15px 0;               /* Top & bottom space */
+    font-size: 14px;               /* Slightly smaller text */
+}
+
+footer p {
+    margin: 0;                     /* Remove default margin */
+    font-size: 16px;
+}
+
+/* Style the icons */
+footer img {
+    width: 30px;                   /* Small size */
+    height: 30px;
+    margin: 0 8px;                  /* Space between icons */
+    vertical-align: middle;        /* Align with text */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    border-radius: 50%;            /* Rounded icons */
+}
+
+/* Hover effect for icons */
+footer img:hover {
+    transform: scale(1.1);         /* Slight zoom */
+    opacity: 0.8;                  /* Slight fade */
+}
+
+/* Links around icons */
+footer a {
+    display: inline-block;
+}
+
