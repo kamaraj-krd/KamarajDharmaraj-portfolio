@@ -10,7 +10,7 @@ function showSection(sectionId) {
 }
 const titles = [
     "Full Stack Developer",
-    "Java Full Stack",
+    "Odoo Developer",
     "Software Developer"
 ];
 
